@@ -1,0 +1,118 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #339966, #9fdfbf);
+    padding: 10px;
+}
+
+.to-do-app{
+    width: 100%;
+    max-width: 540px;
+    background: #ecf9f2;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.to-do-app h2{
+    color: #003300;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+}
+
+.to-do-app h2 img{
+    width: 50px;
+    margin-left: 10px;
+    height: 50px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#9fdfbf;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.row .add-btn{
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    background-color:#003300;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+ul li .check-btn {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-right: 12px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+ul li .check-btn img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+ul li.checked .check-btn img {
+    width: 45px;
+    height: 27px;
+}
+
+.completed {
+    color: #555956 !important;
+    text-decoration: line-through !important;
+}
+
+ul li .remove-btn{
+    border: none;
+    outline: none;
+    width: 28px;
+    height: 28px;
+    padding-left: 10px;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items:end;
+}
+
+ul li .remove-btn img {
+    border: none;
+    outline: none;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    padding-bottom: 3px;
+}
