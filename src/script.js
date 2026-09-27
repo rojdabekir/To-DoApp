@@ -32,7 +32,6 @@ addButton.addEventListener("click", function () {
     const task = document.createElement("span");
     task.textContent = taskText;
 
-
     // Създаваме remove button
     const removeButton = document.createElement("button");
     removeButton.classList.add("remove-btn");
